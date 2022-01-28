@@ -7,36 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20FAC8F279C76A400B482E0 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F55279B10AA000229A0 /* GameState.swift */; };
+		A20FAC90279C76A600B482E0 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F57279B10BA000229A0 /* Statistics.swift */; };
+		A20FAC92279C770400B482E0 /* libSwordleModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A20FAC88279C768C00B482E0 /* libSwordleModel.a */; };
+		A20FAC97279C776F00B482E0 /* libSwordleModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A20FAC88279C768C00B482E0 /* libSwordleModel.a */; };
 		A2C29F44279AFE33000229A0 /* SwordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F43279AFE33000229A0 /* SwordleApp.swift */; };
 		A2C29F46279AFE33000229A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F45279AFE33000229A0 /* ContentView.swift */; };
 		A2C29F48279AFE34000229A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C29F47279AFE34000229A0 /* Assets.xcassets */; };
 		A2C29F4B279AFE34000229A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C29F4A279AFE34000229A0 /* Preview Assets.xcassets */; };
+		A2C29F52279B05C7000229A0 /* CharacterTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F51279B05C7000229A0 /* CharacterTile.swift */; };
+		A2C29F5A279B22BB000229A0 /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F59279B22BB000229A0 /* WordRow.swift */; };
+		A2C29F5D279B35FD000229A0 /* words.csv in Resources */ = {isa = PBXBuildFile; fileRef = A2C29F5C279B35FD000229A0 /* words.csv */; };
+		A2C29F61279B4863000229A0 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F60279B4863000229A0 /* Keyboard.swift */; };
+		A2C29F63279B4875000229A0 /* KeyboardLetterKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F62279B4875000229A0 /* KeyboardLetterKey.swift */; };
+		A2C29F65279B4A4E000229A0 /* KeyboardActionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F64279B4A4E000229A0 /* KeyboardActionKey.swift */; };
+		A2C29F6E279C6CAD000229A0 /* GameStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F6D279C6CAD000229A0 /* GameStateTests.swift */; };
+		A2CF63D827A2D1AD00FE009D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF63D727A2D1AD00FE009D /* Header.swift */; };
+		A2CF63DA27A2E16800FE009D /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF63D927A2E16800FE009D /* HowToPlayView.swift */; };
+		A2CF63DC27A30A0700FE009D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF63DB27A30A0700FE009D /* SettingsView.swift */; };
+		A2CF63DE27A30B2300FE009D /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF63DD27A30B2300FE009D /* StatisticsView.swift */; };
+		A2D4C498279DABB700BF662A /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = A2D4C497279DABB700BF662A /* Nimble */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A20FAC93279C770C00B482E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C29F38279AFE33000229A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20FAC87279C768C00B482E0;
+			remoteInfo = SwordleModel;
+		};
+		A20FAC95279C776600B482E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C29F38279AFE33000229A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20FAC87279C768C00B482E0;
+			remoteInfo = SwordleModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A20FAC86279C768C00B482E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A20FAC88279C768C00B482E0 /* libSwordleModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwordleModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C29F40279AFE33000229A0 /* Swordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C29F43279AFE33000229A0 /* SwordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwordleApp.swift; sourceTree = "<group>"; };
 		A2C29F45279AFE33000229A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2C29F47279AFE34000229A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C29F4A279AFE34000229A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2C29F51279B05C7000229A0 /* CharacterTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTile.swift; sourceTree = "<group>"; };
+		A2C29F55279B10AA000229A0 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		A2C29F57279B10BA000229A0 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		A2C29F59279B22BB000229A0 /* WordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRow.swift; sourceTree = "<group>"; };
+		A2C29F5C279B35FD000229A0 /* words.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.csv; sourceTree = "<group>"; };
+		A2C29F60279B4863000229A0 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		A2C29F62279B4875000229A0 /* KeyboardLetterKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLetterKey.swift; sourceTree = "<group>"; };
+		A2C29F64279B4A4E000229A0 /* KeyboardActionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardActionKey.swift; sourceTree = "<group>"; };
+		A2C29F6B279C6CAD000229A0 /* SwordleModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwordleModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C29F6D279C6CAD000229A0 /* GameStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateTests.swift; sourceTree = "<group>"; };
+		A2CF63D727A2D1AD00FE009D /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		A2CF63D927A2E16800FE009D /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		A2CF63DB27A30A0700FE009D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2CF63DD27A30B2300FE009D /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A2C29F3D279AFE33000229A0 /* Frameworks */ = {
+		A20FAC85279C768C00B482E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2C29F3D279AFE33000229A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20FAC92279C770400B482E0 /* libSwordleModel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C29F68279C6CAD000229A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20FAC97279C776F00B482E0 /* libSwordleModel.a in Frameworks */,
+				A2D4C498279DABB700BF662A /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A20FAC89279C768C00B482E0 /* SwordleModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F57279B10BA000229A0 /* Statistics.swift */,
+				A2C29F55279B10AA000229A0 /* GameState.swift */,
+			);
+			path = SwordleModel;
+			sourceTree = "<group>";
+		};
+		A20FAC91279C770400B482E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2C29F37279AFE33000229A0 = {
 			isa = PBXGroup;
 			children = (
 				A2C29F42279AFE33000229A0 /* Swordle */,
+				A20FAC89279C768C00B482E0 /* SwordleModel */,
+				A2C29F6C279C6CAD000229A0 /* SwordleTests */,
 				A2C29F41279AFE33000229A0 /* Products */,
+				A20FAC91279C770400B482E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				A2C29F40279AFE33000229A0 /* Swordle.app */,
+				A2C29F6B279C6CAD000229A0 /* SwordleModelTests.xctest */,
+				A20FAC88279C768C00B482E0 /* libSwordleModel.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +149,9 @@
 		A2C29F42279AFE33000229A0 /* Swordle */ = {
 			isa = PBXGroup;
 			children = (
-				A2C29F43279AFE33000229A0 /* SwordleApp.swift */,
-				A2C29F45279AFE33000229A0 /* ContentView.swift */,
+				A2C29F53279B05CD000229A0 /* Views */,
 				A2C29F47279AFE34000229A0 /* Assets.xcassets */,
+				A2C29F5B279B35E2000229A0 /* Resources */,
 				A2C29F49279AFE34000229A0 /* Preview Content */,
 			);
 			path = Swordle;
@@ -67,9 +165,84 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A2C29F53279B05CD000229A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F43279AFE33000229A0 /* SwordleApp.swift */,
+				A2D4C49C27A196E700BF662A /* Main */,
+				A2C29F5F279B4850000229A0 /* Game */,
+				A2C29F5E279B4849000229A0 /* Keyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2C29F5B279B35E2000229A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F5C279B35FD000229A0 /* words.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2C29F5E279B4849000229A0 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F60279B4863000229A0 /* Keyboard.swift */,
+				A2C29F62279B4875000229A0 /* KeyboardLetterKey.swift */,
+				A2C29F64279B4A4E000229A0 /* KeyboardActionKey.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		A2C29F5F279B4850000229A0 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F51279B05C7000229A0 /* CharacterTile.swift */,
+				A2C29F59279B22BB000229A0 /* WordRow.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		A2C29F6C279C6CAD000229A0 /* SwordleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F6D279C6CAD000229A0 /* GameStateTests.swift */,
+			);
+			path = SwordleTests;
+			sourceTree = "<group>";
+		};
+		A2D4C49C27A196E700BF662A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2C29F45279AFE33000229A0 /* ContentView.swift */,
+				A2CF63D727A2D1AD00FE009D /* Header.swift */,
+				A2CF63D927A2E16800FE009D /* HowToPlayView.swift */,
+				A2CF63DB27A30A0700FE009D /* SettingsView.swift */,
+				A2CF63DD27A30B2300FE009D /* StatisticsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A20FAC87279C768C00B482E0 /* SwordleModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20FAC8C279C768C00B482E0 /* Build configuration list for PBXNativeTarget "SwordleModel" */;
+			buildPhases = (
+				A20FAC84279C768C00B482E0 /* Sources */,
+				A20FAC85279C768C00B482E0 /* Frameworks */,
+				A20FAC86279C768C00B482E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwordleModel;
+			productName = SwordleModel;
+			productReference = A20FAC88279C768C00B482E0 /* libSwordleModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A2C29F3F279AFE33000229A0 /* Swordle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2C29F4E279AFE34000229A0 /* Build configuration list for PBXNativeTarget "Swordle" */;
@@ -81,11 +254,35 @@
 			buildRules = (
 			);
 			dependencies = (
+				A20FAC94279C770C00B482E0 /* PBXTargetDependency */,
 			);
 			name = Swordle;
+			packageProductDependencies = (
+			);
 			productName = Swordle;
 			productReference = A2C29F40279AFE33000229A0 /* Swordle.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A2C29F6A279C6CAD000229A0 /* SwordleModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C29F71279C6CAD000229A0 /* Build configuration list for PBXNativeTarget "SwordleModelTests" */;
+			buildPhases = (
+				A2C29F67279C6CAD000229A0 /* Sources */,
+				A2C29F68279C6CAD000229A0 /* Frameworks */,
+				A2C29F69279C6CAD000229A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20FAC96279C776600B482E0 /* PBXTargetDependency */,
+			);
+			name = SwordleModelTests;
+			packageProductDependencies = (
+				A2D4C497279DABB700BF662A /* Nimble */,
+			);
+			productName = SwordleTests;
+			productReference = A2C29F6B279C6CAD000229A0 /* SwordleModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,7 +294,13 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					A20FAC87279C768C00B482E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A2C29F3F279AFE33000229A0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A2C29F6A279C6CAD000229A0 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -111,11 +314,16 @@
 				Base,
 			);
 			mainGroup = A2C29F37279AFE33000229A0;
+			packageReferences = (
+				A2D4C496279DABB700BF662A /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
 			productRefGroup = A2C29F41279AFE33000229A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A2C29F3F279AFE33000229A0 /* Swordle */,
+				A20FAC87279C768C00B482E0 /* SwordleModel */,
+				A2C29F6A279C6CAD000229A0 /* SwordleModelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,25 +334,98 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C29F4B279AFE34000229A0 /* Preview Assets.xcassets in Resources */,
+				A2C29F5D279B35FD000229A0 /* words.csv in Resources */,
 				A2C29F48279AFE34000229A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C29F69279C6CAD000229A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A20FAC84279C768C00B482E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20FAC90279C76A600B482E0 /* Statistics.swift in Sources */,
+				A20FAC8F279C76A400B482E0 /* GameState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C29F3C279AFE33000229A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CF63D827A2D1AD00FE009D /* Header.swift in Sources */,
+				A2C29F52279B05C7000229A0 /* CharacterTile.swift in Sources */,
+				A2C29F61279B4863000229A0 /* Keyboard.swift in Sources */,
+				A2C29F65279B4A4E000229A0 /* KeyboardActionKey.swift in Sources */,
+				A2C29F5A279B22BB000229A0 /* WordRow.swift in Sources */,
+				A2CF63DC27A30A0700FE009D /* SettingsView.swift in Sources */,
 				A2C29F46279AFE33000229A0 /* ContentView.swift in Sources */,
+				A2C29F63279B4875000229A0 /* KeyboardLetterKey.swift in Sources */,
+				A2CF63DE27A30B2300FE009D /* StatisticsView.swift in Sources */,
+				A2CF63DA27A2E16800FE009D /* HowToPlayView.swift in Sources */,
 				A2C29F44279AFE33000229A0 /* SwordleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C29F67279C6CAD000229A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C29F6E279C6CAD000229A0 /* GameStateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A20FAC94279C770C00B482E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20FAC87279C768C00B482E0 /* SwordleModel */;
+			targetProxy = A20FAC93279C770C00B482E0 /* PBXContainerItemProxy */;
+		};
+		A20FAC96279C776600B482E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20FAC87279C768C00B482E0 /* SwordleModel */;
+			targetProxy = A20FAC95279C776600B482E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A20FAC8D279C768C00B482E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5GWKYY7SD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A20FAC8E279C768C00B482E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5GWKYY7SD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A2C29F4C279AFE34000229A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -266,15 +547,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Swordle/Preview Content\"";
-				DEVELOPMENT_TEAM = 38382YF5MD;
+				DEVELOPMENT_TEAM = K5GWKYY7SD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,6 +567,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.cadno.Swordle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +579,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Swordle/Preview Content\"";
-				DEVELOPMENT_TEAM = 38382YF5MD;
+				DEVELOPMENT_TEAM = K5GWKYY7SD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +599,44 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.cadno.Swordle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2C29F72279C6CAD000229A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5GWKYY7SD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cadno.SwordleModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C29F73279C6CAD000229A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5GWKYY7SD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cadno.SwordleModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,6 +645,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A20FAC8C279C768C00B482E0 /* Build configuration list for PBXNativeTarget "SwordleModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20FAC8D279C768C00B482E0 /* Debug */,
+				A20FAC8E279C768C00B482E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A2C29F3B279AFE33000229A0 /* Build configuration list for PBXProject "Swordle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -340,7 +672,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A2C29F71279C6CAD000229A0 /* Build configuration list for PBXNativeTarget "SwordleModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C29F72279C6CAD000229A0 /* Debug */,
+				A2C29F73279C6CAD000229A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2D4C496279DABB700BF662A /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2D4C497279DABB700BF662A /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2D4C496279DABB700BF662A /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2C29F38279AFE33000229A0 /* Project object */;
 }
