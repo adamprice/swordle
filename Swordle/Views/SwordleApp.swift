@@ -39,7 +39,7 @@ struct SwordleApp: App {
     
     func getCSVData() -> Array<String> {
         do {
-            guard let path = Bundle.main.path(forResource: "words", ofType: "csv") else { return [] }
+            guard let path = Bundle.main.path(forResource: "words", ofType: "txt") else { return [] }
             log.debug("Loading words list from: \(path)")
             let content = try String(contentsOfFile: path)
             let parsedCSV: [String] = content.components(separatedBy: "\n")

@@ -17,7 +17,7 @@
 		A2C29F4B279AFE34000229A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C29F4A279AFE34000229A0 /* Preview Assets.xcassets */; };
 		A2C29F52279B05C7000229A0 /* CharacterTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F51279B05C7000229A0 /* CharacterTile.swift */; };
 		A2C29F5A279B22BB000229A0 /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F59279B22BB000229A0 /* WordRow.swift */; };
-		A2C29F5D279B35FD000229A0 /* words.csv in Resources */ = {isa = PBXBuildFile; fileRef = A2C29F5C279B35FD000229A0 /* words.csv */; };
+		A2C29F5D279B35FD000229A0 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2C29F5C279B35FD000229A0 /* words.txt */; };
 		A2C29F61279B4863000229A0 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F60279B4863000229A0 /* Keyboard.swift */; };
 		A2C29F63279B4875000229A0 /* KeyboardLetterKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F62279B4875000229A0 /* KeyboardLetterKey.swift */; };
 		A2C29F65279B4A4E000229A0 /* KeyboardActionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C29F64279B4A4E000229A0 /* KeyboardActionKey.swift */; };
@@ -69,7 +69,7 @@
 		A2C29F55279B10AA000229A0 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		A2C29F57279B10BA000229A0 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		A2C29F59279B22BB000229A0 /* WordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRow.swift; sourceTree = "<group>"; };
-		A2C29F5C279B35FD000229A0 /* words.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.csv; sourceTree = "<group>"; };
+		A2C29F5C279B35FD000229A0 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 		A2C29F60279B4863000229A0 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		A2C29F62279B4875000229A0 /* KeyboardLetterKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLetterKey.swift; sourceTree = "<group>"; };
 		A2C29F64279B4A4E000229A0 /* KeyboardActionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardActionKey.swift; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		A2C29F5B279B35E2000229A0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2C29F5C279B35FD000229A0 /* words.csv */,
+				A2C29F5C279B35FD000229A0 /* words.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C29F4B279AFE34000229A0 /* Preview Assets.xcassets in Resources */,
-				A2C29F5D279B35FD000229A0 /* words.csv in Resources */,
+				A2C29F5D279B35FD000229A0 /* words.txt in Resources */,
 				A2C29F48279AFE34000229A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
