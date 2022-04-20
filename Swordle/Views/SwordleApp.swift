@@ -16,18 +16,18 @@ struct SwordleApp: App {
 
     let startDate: Date = {
         var components = DateComponents()
-        components.day = 18
+        components.day = 19
         components.month = 6
         components.year = 2021
         components.hour = 0
         components.minute = 0
         return Calendar.current.date(from: components)!
     }()
-    
+
     init() {
         let daysSinceStart = Calendar.current.daysSince(startDate)
         let data = getCSVData().map { $0.fromBase64()! }
-        let puzzleNumber = daysSinceStart - 1
+        let puzzleNumber = daysSinceStart
         log.debug("Puzzle #\(puzzleNumber): \(data[puzzleNumber])")
     }
 
